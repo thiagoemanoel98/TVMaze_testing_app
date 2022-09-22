@@ -34,11 +34,15 @@ async function searchByName(searchText: string): Promise<Show[]> {
 }
 
 async function getEpisodes(showId: string): Promise<GroupedEpisodes> {
+  // Chamada a api
   const {data} = await api.get<Episode[]>(`shows/${showId}/episodes`);
 
+  // Agrupamento dos episódios
   const seasons = commonUtils.groupBy(data, 'season');
+  // Extração dos nomes
   const seasonNames = Object.keys(seasons);
 
+  // Retornando o GroupEpisodes
   return {seasonNames, seasons};
 }
 
