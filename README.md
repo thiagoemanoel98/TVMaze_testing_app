@@ -1,4 +1,7 @@
-# React Native TVMaze App
+# TVMaze - Curso React Native Testing Library - Testando Componentes no React Native.
+
+Este projeto foi criado para estudar testes em aplicações react native. As implementações foram feitas seguindo as aulas dessa [playlist](https://youtube.com/playlist?list=PLn1L40VzKSVJgia8TV7G_Ly22gbHvTASt)
+.
 
 This is a React Native App to show information about TV series. The data are fetch from [TVMaze API](https://www.tvmaze.com/api).
 
