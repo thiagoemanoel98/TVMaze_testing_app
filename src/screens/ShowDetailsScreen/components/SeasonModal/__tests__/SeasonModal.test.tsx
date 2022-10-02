@@ -1,7 +1,7 @@
 import React, {createRef} from 'react';
-import {render, act, fireEvent} from '@testing-library/react-native';
 import {SeasonModal} from '../SeasonModal';
 import {Modalize} from 'react-native-modalize';
+import { render, act, fireEvent } from 'test-utils';
 
 describe('SeasonModal', () => {
   test('Show all season option', () => {

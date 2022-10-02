@@ -1,9 +1,9 @@
 import React from 'react';
-import {render, waitFor} from '@testing-library/react-native';
 import {EpisodeList} from '../EpisodeList';
 import {mocks} from './mock';
 import {QueryClient, QueryClientProvider} from 'react-query';
 import {showService} from '../../../../../services/show/showService';
+import {render} from 'test-utils';
 
 const queryClient = new QueryClient({
   defaultOptions: {
