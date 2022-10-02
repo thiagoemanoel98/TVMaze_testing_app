@@ -57,7 +57,8 @@
       "./jestSetupFile.js"
     ],
     "setupFilesAfterEnv": [
-      "@testing-library/jest-native/extend-expect"
+      "@testing-library/jest-native/extend-expect",
+      "./test/setup-env.js"
     ],
     "moduleDirectories": [
       "node_modules",

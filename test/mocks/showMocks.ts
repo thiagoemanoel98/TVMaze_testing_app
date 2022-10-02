@@ -123,4 +123,5 @@ export const showMocks = {
   episode2,
   episode22,
   episode23,
+  episodeList,
 };

@@ -18,6 +18,7 @@ const wrapper = ({children}) => (
 
 describe('EpisodeList', () => {
   test('Sho all season one episodes at first', async () => {
+    // mockando sem o interceptador
     jest.spyOn(showService, 'getEpisodes').mockResolvedValueOnce({
       seasonNames: ['1', '2'],
       seasons: {
